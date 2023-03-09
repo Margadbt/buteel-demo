@@ -1,0 +1,12 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+h3{
+  margin: 0;
+  font-size: 30px;
+}
+.logo{
+  text-decoration: 0;
+  color: black;
+}

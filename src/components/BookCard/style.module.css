@@ -1,0 +1,36 @@
+.bookcard{
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.08);
+  border-radius: 20px;
+  width: fit-content;
+  transition: scale ease-out 0.25s;
+  border: 1px solid rgb(0, 0, 0, 0.08);
+}
+
+.bookcard:hover{
+  cursor: pointer;
+  scale: 1.05;
+}
+.content{
+  padding: 40px;
+
+}
+
+img{
+  object-fit: cover;
+  height: 270px;
+  width: 190px;
+  border-radius: 10px;
+}
+
+.author{
+  margin: 0;
+}
+
+.bookname{
+  width: 190px;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}

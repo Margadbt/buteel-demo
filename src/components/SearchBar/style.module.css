@@ -1,0 +1,13 @@
+input{
+  padding: 15px 25px;
+  border: none;
+  background-color: #F8F7F5;
+  border-radius: 10px;
+  width: 200px;
+  transition: all ease-out 0.25s;
+}
+
+input:focus{
+  outline: none;
+  width: 300px;
+}

@@ -1,0 +1,21 @@
+.nav{
+  margin-top: 20px;
+}
+ul{
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+li{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+.link{
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}

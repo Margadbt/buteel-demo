@@ -1,0 +1,48 @@
+.bookcover{
+  height: 280px;
+  width: 170px;
+  object-fit: cover;
+}
+
+.wrapper{
+  margin-top: 70px;
+}
+
+.info{
+  width: auto;
+}
+
+.desc{
+  min-width: 600px;
+  max-width: 750px;
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.review{
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  box-shadow: 0 5px 20px rgb(0, 0, 0, 0.08);
+  border-radius: 20px;
+  border: 1px solid rgb(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  cursor: pointer;
+  border: none;
+  background-color: aquamarine;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 30px;
+  border-radius: 20px;
+  transition: all ease-out 0.25s;
+}
+button:hover{
+  scale: 1.05;
+}
