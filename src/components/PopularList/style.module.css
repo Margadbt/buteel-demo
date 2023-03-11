@@ -1,7 +1,0 @@
-.popularlist{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-title{
-  margin-top: 20px;
-}

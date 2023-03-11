@@ -1,4 +1,3 @@
-import './App.css';
 import Home from './pages/Home'
 import React from 'react';
 import Header from './components/Header';
@@ -9,7 +8,7 @@ import Category from './pages/Category';
 
 function App() {
   return (
-    <div className='body'>
+    <div className='w-9/12 mx-auto my-8'>
       <Header />
       <Nav />
       <Routes>
